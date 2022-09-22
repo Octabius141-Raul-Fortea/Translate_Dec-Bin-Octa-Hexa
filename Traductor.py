@@ -8,7 +8,7 @@ while True:
     lenguaje_1 = int((input("> ¿Cual es el lenguaje que vas a introducir, introduce el número correspondiente? ((1)dec, (2)bin, (3)octa,(4)hex)\n> ")))
     lenguaje_2 = int((input("> ¿A que lenguaje quieres traducir, introduce el número correspondiente? ((1)dec, (2)bin, (3)octa, (4)hex)\n> ")))
 
-    if lenguaje_1 == (1 or 2 or 3 or 4) and lenguaje_2 == (1 or 2 or 3 or 4):
+    if lenguaje_1>0 and lenguaje_1 < 5 and lenguaje_2 > 0 and lenguaje_2 < 5:
         break
     else:
         print("No ha introducido un valor valido")
